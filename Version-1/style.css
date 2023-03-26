@@ -42,7 +42,7 @@
     
     background-image: url(./Images/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: azure;
 }
 
@@ -179,7 +179,13 @@ footer > a {
     flex-direction: row;
 }
 
+label {
+    width: 100%;
+}
 
+#first-name {
+    width: 100%;
+}
 
 /* Button Section */
 
@@ -193,7 +199,7 @@ button {
     font-size: 24px;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgb(65, 110, 65);
+    background-color: rgb(89, 109, 72);
     color: whitesmoke;
 }
 
@@ -208,5 +214,5 @@ button {
 
 span > a {
     text-decoration: none;
-    color: rgb(65, 110, 65);
+    color: rgb(89, 109, 72);
 }
