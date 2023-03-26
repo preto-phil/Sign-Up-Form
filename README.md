@@ -5,7 +5,7 @@ The Odin Project Intermediate HTML and CSS: Sign-up Form Project
     <ol>
         <li>Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.</li>
         <li>Set up your git repository (refer to past projects if you need a refresher).</li>
-        <li>Download a foll-resolution copy of <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png">the design file</a>, and get a general idea for how you’re going to need to lay things out in your HTML document.</li>
+        <li>Download a full-resolution copy of <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/sign-up-form.png">the design file</a>, and get a general idea for how you’re going to need to lay things out in your HTML document.</li>
     </ol>
 <h2>Step 2: Gather Assets</h2>
     <ol>
