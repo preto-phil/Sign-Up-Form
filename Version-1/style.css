@@ -95,8 +95,8 @@ footer {
     padding-bottom: 5px;
 }
 
-footer > a {
-    display: flex;
+footer > div > a {
+    display: inline;
     
     color: azure;
 }
