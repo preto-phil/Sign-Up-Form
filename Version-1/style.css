@@ -46,13 +46,13 @@
 }
 
 .left-empty {
-    height: 20%;
+    height: 23%;
 }
 
 .odin-logo {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0, 0.4);
 
-    height: 20%;
+    height: 15%;
 }
 
 .odin-logo > img {
@@ -76,7 +76,7 @@
     justify-content: center;
     align-items: flex-end;
 
-    height: 60%;
+    height: 62%;
 }
 
 .left-container > div {
@@ -87,6 +87,8 @@
 
 footer {
     color: azure;
+
+    padding-bottom: 5px;
 }
 
 footer > a {
@@ -107,6 +109,13 @@ footer > a {
     height: 100vh;
 
     padding-left: 20px;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: inherit;
+
+    height: 40%;
 }
 
 .form-structure {
