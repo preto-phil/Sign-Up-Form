@@ -1,3 +1,10 @@
+@import url(./Fonts/Norse-Bold.otf);
+
+@font-face {
+    font-family: Norse;
+    src: url(./Fonts/Norse-Bold.otf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -42,6 +49,11 @@
 .odin-logo > img {
     width: 50px;
     height: auto;
+}
+
+.odin-logo > span {
+    font-family: Norse;
+    font-size: 48px;
 }
 
 .left-container > footer {
