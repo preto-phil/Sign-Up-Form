@@ -86,6 +86,9 @@
     align-items: flex-end;
 }
 
+
+/* Footer */
+
 footer {
     color: azure;
 
@@ -110,6 +113,9 @@ footer > a {
     height: 100vh;
 
 }
+
+
+/* Text Section */
 
 .text-div {
     display: flex;
@@ -150,11 +156,17 @@ footer > a {
     padding: 0 40px;
 }
 
+
+/* Form Section */
+
 .form-div {
     height: 30%;
 
 /*  border: 1px solid grey; */    
     box-shadow: 0px 0px 0px 0px;
+
+    padding: 10px 40px;
+
 }
 
 .form-structure {
@@ -167,15 +179,34 @@ footer > a {
     flex-direction: row;
 }
 
+
+
+/* Button Section */
+
 .btn-div {
     background-color: rgb(255, 250, 250);
-
     height: 10%;
+    padding: 30px 40px;
 }
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(65, 110, 65);
+    color: whitesmoke;
+}
+
+/* Account Section */
 
 .account-div {
     background-color: rgb(255, 250, 250);
-
     height: 22%;
+    font-size: 24px;
+    padding: 10px 40px;
+}
 
+span > a {
+    text-decoration: none;
+    color: rgb(65, 110, 65);
 }
