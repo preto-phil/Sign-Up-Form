@@ -177,13 +177,19 @@ footer > div > a {
 .form-row {
     display: flex;
     flex-direction: row;
-}
-
-label {
     width: 100%;
 }
 
-#first-name {
+.form-row > label {
+    width: 50%;
+}
+
+#first-name, 
+#last-name,
+#email,
+#phone-number,
+#pass,
+#con-pass {
     width: 100%;
 }
 
