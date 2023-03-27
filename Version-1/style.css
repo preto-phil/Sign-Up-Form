@@ -168,6 +168,10 @@ footer > div > a {
 
 }
 
+h1 {
+    padding: 10px 0;
+}
+
 .form-structure {
     display: flex;
     flex-direction: column;
@@ -182,10 +186,21 @@ footer > div > a {
 .form-row > div {
     display: block;
     width: 100%;
+
+    padding: 10px 0;
 }
 
 label {
     display: block;
+
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
 }
 
 #first-name, 
@@ -196,6 +211,12 @@ label {
 #con-pass {
     width: 60%;
 }
+
+
+/* Pseudo class and elements section */
+
+
+
 
 /* Button Section */
 
