@@ -9,7 +9,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px dashed red;
 }
 
 
@@ -165,7 +164,7 @@ footer > div > a {
 /*  border: 1px solid grey; */    
     box-shadow: 0px 0px 0px 0px;
 
-    padding: 10px 40px;
+    padding: 10px 300px 10px 40px;
 
 }
 
@@ -180,8 +179,13 @@ footer > div > a {
     width: 100%;
 }
 
-.form-row > label {
-    width: 50%;
+.form-row > div {
+    display: block;
+    width: 100%;
+}
+
+label {
+    display: block;
 }
 
 #first-name, 
@@ -190,7 +194,7 @@ footer > div > a {
 #phone-number,
 #pass,
 #con-pass {
-    width: 100%;
+    width: 60%;
 }
 
 /* Button Section */
