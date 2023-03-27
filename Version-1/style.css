@@ -188,6 +188,8 @@ h1 {
     width: 100%;
 
     padding: 10px 0;
+
+    position: relative;
 }
 
 label {
@@ -197,6 +199,8 @@ label {
 }
 
 input {
+
+    
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     font-size: 16px;
@@ -215,7 +219,26 @@ input {
 
 /* Pseudo class and elements section */
 
+input:focus {
+    border: 1px solid rgb(66, 66, 226);
+/*     border-color: rgb(66, 66, 226);
+ */}
 
+/* input:invalid {
+    border-color: red;
+}
+
+input[type="password"] {
+    
+}
+
+input[type="password"]:invalid::after {
+    content: "* Passwords do not match";
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
 
 
 /* Button Section */
