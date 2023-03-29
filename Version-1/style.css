@@ -226,26 +226,19 @@ input[type="password"] + div {
 /* Pseudo class and elements section */
 
 input:focus {
-    border: 1px solid rgb(66, 66, 226);
-/*     border-color: rgb(66, 66, 226);
- */}
+    border-color: rgb(66, 66, 226) !important;
 
-/* input:invalid {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+input[type="password"]:invalid {
     border-color: red;
 }
 
-input[type="password"] {
-    
+input[type="password"]:valid {
+    border-color: green;
 }
-
-input[type="password"]:invalid::after {
-    content: "* Passwords do not match";
-
-    position: absolute;
-    top: 0px;
-    left: 0px;
-} */
-
 
 /* Button Section */
 
