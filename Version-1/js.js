@@ -85,18 +85,19 @@ btnInput.addEventListener("submit", (event) => {
 
 
 function confirmPassword() {
-    let pwd1 = document.querySelector("#pass");
-    let pwd2 = document.querySelector("#conpass");
+    let pwd1 = document.querySelector("#pass").value;
+    let pwd2 = document.querySelector("#conpass").value;
     let msg1 = document.querySelector(".pwd1");
     let msg2 = document.querySelector(".pwd2");
     
     console.log(pwd1);
     console.log(pwd2);
 
-    if (pwd1 == "a") {
+    if (pwd1 == "") {
         msg1.innerText = "Enter a password";
+        msg2.innerText = "";
         console.log(msg1);
-    } else if (pwd2 == "b") {
+    } else if (pwd2 == "") {
         msg2.innerText = "Confirm password";
         console.log(msg2);
    } else if (pwd1 != pwd2) {
