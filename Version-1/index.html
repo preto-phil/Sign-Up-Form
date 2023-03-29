@@ -27,7 +27,7 @@
             </div>
         
             <div class="form-div">
-                <form onsubmit="return confirmPassword(this)">
+                <form>
                     <h1>Let's do this!</h1>
                     <div class="form-structure">
                         <div class="form-row">
@@ -53,17 +53,19 @@
                         <div class="form-row">
                             <div>
                                 <label for="pass">PASSWORD</label>
-                                <input type="password" id="pass" name="password">
+                                <input type="password" id="pass" name="password" required>
+                                <div class="pwd1"></div>
                             </div>
                             <div>
                                 <label for="conpass">CONFIRM PASSWORD</label>
                                 <input type="password" id="conpass" name="password" required>
+                                <div class="pwd2"></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="btn-div">
-                    <button class="btn" type="button">Create Account</button>
+                    <button class="btn" type="button" onclick="confirmPassword()">Create Account</button>
                 </div>
                 </form>
 
